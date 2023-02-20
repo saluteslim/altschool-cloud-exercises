@@ -35,7 +35,7 @@
           - curl
           - wget
           
-    - name: Update Sury source list
+    - name: Update Sury source list for php
       ansible.builtin.shell: wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
  
     - name: Import Sury GPG Key
